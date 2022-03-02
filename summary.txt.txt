@@ -1,0 +1,9 @@
+1.logging end point parameter or object as part of request and response always write inside
+entity class tostring() method.otherwise hashcode will display.
+
+2.to write log file go inside app.properties file write loggin.file="file location" than entire log on console
+will stored inside the file
+
+3.writing logback file
+write first appender inside appender write encoder and rolling policies inside encode write pattern.
+write root level logging tag use appender reference here
